@@ -1,4 +1,5 @@
-/GameStore.Client/bin
-
-obj
-
+GameStore.Client/bin
+GameStore.Client/obj
+GameStore.Client/wwwroot/css
+GameStore.Client.csproj.user
+GameStore.Client.sln

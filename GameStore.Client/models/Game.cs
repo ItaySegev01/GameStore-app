@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GameStore.Client.models;
 
+[Serializable]
 public class Game
 {
     public int Id { get; set; }

@@ -29,6 +29,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-q4ruoDSCjV\/QJY9ZkzV6uxvEvZUVrDbyUjU3SSh5SlE=",
       "Microsoft.JSInterop.dll": "sha256-4w31cVs8ZqmiTjPhXLdOP9nJt6goHkYVV9L8Nz+27\/g=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-4xrroXQy8wvhJmgbErz8Uld\/3YoAZEjglOS6GfJz+JQ=",
+      "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "System.IO.Pipelines.dll": "sha256-P\/MqD0fCBd5bgTM16JC1QC\/Zz7s+CwViyzmDFkBG4\/c=",
       "Microsoft.CSharp.dll": "sha256-BUiVGe6p6jUmOK8r05pxkju2yOY+W440Yo1+skPhq9s=",
       "Microsoft.VisualBasic.Core.dll": "sha256-vKIUs2cWQIUo8dpQTCzbxP67FlfRjXtAwpjc4v\/5i50=",
@@ -198,13 +199,13 @@
       "mscorlib.dll": "sha256-8OmdVHzoN7xteY5ehp0L8R17I9QxFkH2lUVHFuslE0s=",
       "netstandard.dll": "sha256-urq+e2ZQXxmOWMRxTR92529HnUVu6+kyVnfF6SoLad8=",
       "System.Private.CoreLib.dll": "sha256-ixnF\/wVKLHZM1N0lfJufpZ41EC2LvvyiSqdW43h3Xew=",
-      "GameStore.Client.dll": "sha256-MOetxFAyN0i3v9Tu35WLzJnV\/9Pep9MkkF9PhWLS6EY="
+      "GameStore.Client.dll": "sha256-O82IraQz3Nn6pJBxAZu+k99OtvTpl31LeGaO1BVq4W0="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "GameStore.Client.pdb": "sha256-TxhLpXuyAkQr4I4Es1Dtm5D8A08FO1G5j7UF37Y5CYI="
+      "GameStore.Client.pdb": "sha256-pBKmAAWo4Iwh4Qq5isav9aZTIlTc9XK0dqx9cE6s0qk="
     },
     "runtime": {
       "dotnet.7.0.12.78eivvqm53.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC\/eMoHpqRc+4=",

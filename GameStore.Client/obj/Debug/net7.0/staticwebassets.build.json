@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oRB+OVpnBdgtAz9fNCDpjJBjXQDShS0koi1fzyQdzwE=",
+  "Hash": "SpGami4lx4E0jhKriyJUyJGRK/Ub/iDWqNrcM0h6xHY=",
   "Source": "GameStore.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "obj\\Debug\\net7.0\\GameStore.Client.pdb"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.12\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
@@ -185,23 +202,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.12\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.12\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -695,6 +695,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.12\\runtimes\\browser-wasm\\lib\\net7.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib\\net6.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -5185,6 +5202,23 @@
       "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.dll"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\obj\\Debug\\net7.0\\build-gz\\JX9g00iM.gz",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\obj\\Debug\\net7.0\\build-gz\\jz+CrcJa.gz",
       "SourceId": "GameStore.Client",
       "SourceType": "Computed",
@@ -6953,23 +6987,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "GameStore.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "GameStore.Client",
       "SourceType": "Discovered",
@@ -7070,6 +7087,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "GameStore.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Personal Projects\\GameStore-app\\GameStore.Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

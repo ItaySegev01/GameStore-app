@@ -1,9 +1,14 @@
 using GameStore.Client.models;
+using Microsoft.AspNetCore.Components;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace GameStore.Client;
 
 public static class GameClient
 {
+    private static readonly string filePath = @"C:\Users\User\Desktop\Personal Projects\GameStore-app\GameStore.Client\data.json";
+
         private static readonly List<Game> games = new(){
         new Game(){
             Id = 1, Name = "Street Fighter II", Genre = "Fighting",Price = 19.99M,ReleaseDate = new DateTime(1991,2,1)
@@ -17,6 +22,8 @@ public static class GameClient
     };
 
     public static Game[] GetGames(){
+        SaveList();
+        //List<Game> list = GetFromFile();
         return games.ToArray();
     }
 
@@ -45,4 +52,40 @@ public static class GameClient
         games.Remove(game);    
     }
 
+    private static void SaveList(){
+        try{
+            string json = JsonConvert.SerializeObject(games);
+            using (var writer = new StreamWriter(filePath))
+            {
+                try {
+                    Console.WriteLine(json);
+                    writer.Write(json); 
+
+                } catch (Exception ex) {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+        catch(JsonSerializationException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+    }
+
+    private static List<Game> GetFromFile(){
+        try{
+            string jsonData = File.ReadAllText(filePath);
+            var list = JsonConvert.DeserializeObject<List<Game>>(jsonData);
+            if (list is null) 
+             return new List<Game>();
+            else
+             return list;
+        }catch (Exception){
+            return new List<Game>();
+        }
+    }
 }
